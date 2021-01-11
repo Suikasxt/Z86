@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/personal/personal",
+    "pages/myCheckinRecord/myCheckinRecord",
+    "pages/joggingLearderboard/joggingLearderboard",
+    "pages/joggingRules/joggingRules"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "需要记录打卡时的位置信息"
+    }
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#458B00",
+    "navigationBarTitleText": "THU自86",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor" : "#528DB8",
+    "backgroundColor": "#cdc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_selected.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": "images/personal.png",
+        "selectedIconPath": "images/personal_selected.png"
+      }
+    ]
+  }
+}

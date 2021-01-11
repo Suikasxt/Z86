@@ -1,0 +1,27 @@
+<!--pages/joggingRules/joggingRules.wxml-->
+<view class="title">打卡规则</view>
+<view class="container">
+  <view id="rules">
+    <text space="emsp">  晨跑打卡计划意在鼓励大家早睡早起，晨跑锻炼。</text>
+    <text space="emsp">  只要在每天5:45到6:45时间段内抵达地紫荆操场即可打卡，抵达后你可以选择跟随晨跑队跑步，也可以自己跑（甚至不跑我们也不知道）。晨跑队约6点出发，出发前来不及打卡可以等6:30再次回到紫操再打卡。</text>
+    <text space="emsp">  地理位置信息有缓存，建议抵达紫操后再打开小程序。如果身在紫操却打卡失败，请稍等一分钟左右再次尝试（当然其实也可以一直尝试），长时间未能成功请告知我们。</text>
+    <text space="emsp">  排行榜以打卡次数为第一关键字，最后一次打卡时间为第二关键字，先打卡者排名靠前。</text>
+    <text space="emsp">  打卡活动由自86班级提供小<text style="font-weight:bolder;display:inline;">奖品</text>，如果你确信自己满足获奖条件，请主动联系负责人，所有奖品均提供校内送货上门服务。另外由于经费有限，（如果没人赞助）经费烧光之后将终止提供奖品，敬请谅解。</text>
+    <text space="emsp">  负责人微信号：<text style="color:#97FFFF;display:inline;">swm_sxt</text>，有任何问题亦可联系自86任意班委。</text>
+    <text space="emsp">{{addition}}</text>
+    <text space="emsp">  奖品列表：</text>
+    <view class="table" style="margin-top:30px;">
+      <view class="tr">
+        <view class="th">奖品</view>
+        <view class="th">条件</view>
+        <view class="th">限制</view>
+      </view>
+      <view wx:for="{{prizeList}}" class="tr" bindtap="toContestDetail" data-index="{{index}}">
+        <view class="th">{{item.prize}}</view>
+        <view class="th">{{item.requirement}}</view>
+        <view class="th">{{item.limit}}</view>
+      </view>
+    </view>
+    
+  </view>
+</view>

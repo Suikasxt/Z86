@@ -1,0 +1,4 @@
+<button bindtap="joggingCheckin" class="joggingCheckinButton">晨跑打卡</button>
+<button bindtap="toJoggingLeaderboard" class="menuButton" id="leaderboard" data-type="0">本月排行榜</button>
+<button bindtap="toJoggingLeaderboard" class="menuButton" id="leaderboard" data-type="1">总量排行榜</button>
+<button bindtap="toJoggingRules" class="menuButton" id="rules">打卡规则</button>

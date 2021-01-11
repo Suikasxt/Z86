@@ -1,0 +1,34 @@
+/* ZM/personal/personal.wxss */
+
+.avatar{
+  margin-top: 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+}
+
+.loginButton{
+  background-color: green;
+  color: #fff;
+  height: 50px;
+}
+
+.nickName{
+  display: block;
+  height: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #CCFFCC;
+}
+
+.myMenu{
+  margin-top: 20px;
+  width: 70%;
+  background-color: #669933;
+  color: #003366;
+  font-size: 25px;
+  padding-left: 30px; 
+  border: 5px solid #99CC66;
+  border-radius: 25px;
+}

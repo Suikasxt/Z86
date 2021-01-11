@@ -1,0 +1,10 @@
+<!--ZM/personal/personal.wxml-->
+<view wx:if="{{userInfo}}" class="container">
+  <image src="{{userInfo['avatarUrl']}}" class="avatar" mode="scaleToFill"></image>
+  <view class="nickName">{{userInfo["nickName"]}}</view>
+  <view class="myMenu" bindtap="toMyCheckinRecord">打卡记录</view>
+</view>
+<view wx:else class="container">
+  <image src="../../images/user-unlogin.png" class="avatar" mode="scaleToFill"></image>
+  <button open-type="getUserInfo" class="loginButton" bindgetuserinfo="onGetUserInfo">授权并登录</button>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/myCheckinRecord/myCheckinRecord.wxml-->
+<view class="container">
+  <view wx:for="{{joggingCheckin}}" class="myMenu">
+    {{item}}
+  </view>
+</view>

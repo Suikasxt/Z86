@@ -1,0 +1,22 @@
+/**index.wxss**/
+
+
+.joggingCheckinButton{
+  background-color: #669933;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 240px;
+  min-height: 240px;
+  line-height: 240px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #00EE00;
+  border-radius: 120px;
+  box-shadow: 10px 10px 20px 0px black;
+}
+
+.menuButton{
+  margin-top: 30px;
+  width: 70%;
+  background: #CCCC99;
+}

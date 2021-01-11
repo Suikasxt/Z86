@@ -1,0 +1,7 @@
+/* pages/joggingRules/joggingRules.wxss */
+#rules{
+  width:90%;
+}
+text{
+  display:block;
+}

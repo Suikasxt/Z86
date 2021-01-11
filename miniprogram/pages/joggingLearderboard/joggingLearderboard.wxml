@@ -1,0 +1,10 @@
+<!--pages/joggingLearderboard/joggingLearderboard.wxml-->
+<view class="title">{{title}}</view>
+<view class="container">
+  <view wx:for="{{users}}" class="singleUser">
+    <text class="index">{{index + 1}}</text>
+    <image src="{{item.userInfo.avatarUrl}}" class="avatar" mode="scaleToFill"></image>
+    <text class="nickName">{{item.userInfo.nickName}}</text>
+    <text class="count">{{item.joggingCount}}次</text>
+  </view>
+</view>
